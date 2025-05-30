@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { TarjetaComponent } from "../tarjeta/tarjeta.component";
+import { CarouselComponent } from "../carousel/carousel.component";
 
 @Component({
   selector: 'app-prueba',
-  imports: [TarjetaComponent],
+  imports: [TarjetaComponent, CarouselComponent],
   templateUrl: './prueba.component.html',
   styleUrl: './prueba.component.css'
 })
